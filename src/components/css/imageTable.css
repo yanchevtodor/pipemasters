@@ -1,0 +1,27 @@
+.homeImageTable{
+	background-image: url(../../images/plumbing.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+   
+  }
+  .homeImageTable-table{
+	background: #8080808a;
+  }    
+  
+  .homeImageTable-innerImage{
+	font-size: 60px;
+  }
+  .homeImageTable-innerText p{
+	font-size: 20px;
+	margin: 0px 5px 10px 6px;
+  }
+  .homeImageTable-item{
+	color: #1e1e1e;
+	transition: all 0.1s;
+	transition-timing-function: linear;
+  }
+  .homeImageTable-item:hover{
+	transform: scale(1.05);
+  
+  }
+  

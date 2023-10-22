@@ -1,0 +1,54 @@
+
+
+.header{
+	height: 100vh;
+	overflow: hidden;
+	background-position: top;
+	background-size: cover;
+	background-image: url(../../images/pipe-406906_1920.jpg);
+	text-shadow: black 1px 1px;
+	color: white;
+  }
+  .header-content div{
+	display: inline-block;
+  
+	position: relative;
+  }
+  .header-content img{
+   max-width: 300px;
+	width: 100%;
+  
+  }
+  
+  .header-left{
+	text-align: left;
+	vertical-align: top;
+	animation-name: fadein_left;
+	animation-duration: 1s;
+  }
+  
+  
+  .header-right{
+	animation-name: fadein_right;
+	animation-duration: 1s;
+  }
+
+  
+  .header-title{
+	position: relative;
+	animation-name: fadein_top;
+	animation-duration: 1s;
+  }
+  
+  @keyframes fadein_top {
+	0%  { top: -300px; }
+	100%   { top: 0px; } 
+  }
+  @keyframes fadein_left {
+	0%  { left: -110%; }
+	100%   { left: 0; } 
+  }
+  @keyframes fadein_right {
+	0%  { right: -110%; }
+	100%   { right: 0; } 
+  }

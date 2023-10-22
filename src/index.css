@@ -1,0 +1,33 @@
+
+.switch{
+  margin-top: 60px !important;
+  min-height: 80vh;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.row {
+  margin-bottom: 0px;
+}
+
+
+
+@media only screen and (min-width: 993px){
+  .container {
+      width: 80%;
+  }
+
+
+}
+

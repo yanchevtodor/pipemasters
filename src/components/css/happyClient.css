@@ -1,0 +1,45 @@
+
+.happyClient {
+	text-align: center;
+	
+}
+.happyClient-box {
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	margin: 30px 4% !important;
+	border: 1px solid #ededed;
+	padding: 10px !important;
+	transition: all 0.1s;
+	transition-timing-function: linear;
+	background-image: url(../../images/quote.png);
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: 100px ;
+
+}
+.happyClient-box:hover{
+	transform: scale(1.05);
+  }
+
+.happyClient-image{
+	display: block;
+	text-align: center;
+
+}
+.happyClient-image img{
+	transition: all 0.1s;
+	transition-timing-function: linear;
+	
+}
+.happyClient-image img:hover{
+	transform: scale(1.05);
+  }
+.happyClient-image img{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 50px;
+	
+}
+.happyClient-quote{
+	text-align: center;
+}

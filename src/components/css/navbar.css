@@ -1,0 +1,31 @@
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 0px 10%;
+	z-index: 999;
+  }
+  nav a{
+	color: #3d3d3d !important;
+  }
+  nav ul li{
+	margin: 10px;
+  }
+  nav li a{
+	text-align: center;
+	border-radius: 10px;
+	width: 100px;
+	line-height: 42px;
+	font-size: 20px;
+  }
+  a.active{
+	color: grey !important;
+	font-size: 19px;
+  }
+  .mobile-nav-logo{
+	width: 100%;
+  }
+  .mobile-nav-logo img{
+	width: 50%;
+  }
+  

@@ -1,0 +1,19 @@
+.smallHader{
+	position: relative;
+  }
+  .smallHader-image{
+	animation-name: fadein_left;
+	animation-duration: 1s;
+	position: relative;
+  }
+  .smallHader-text{
+	animation-name: fadein_right;
+	animation-duration: 1s;
+	position: relative;
+  }
+  .smallHader{
+	background-position: center;
+	background-image: url(../../images/pipe-406906_1920.jpg);
+	padding: 20px 0px;
+  }
+  
