@@ -1,3 +1,21 @@
+# pipemasters
+
+## Website for my brother, created with react and redux
+
+Website fof my brother
+
+## install
+
+run "npm install" in the main directory and in the client folder
+
+## start
+
+run "npm run dev" to start front and back-end servers
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
