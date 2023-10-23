@@ -2,7 +2,7 @@
 
 ## Website for my brother, created with react and redux
 
-Website fof my brother
+## Website fof my brother
 
 
 
